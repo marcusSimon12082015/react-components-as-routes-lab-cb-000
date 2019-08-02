@@ -8,7 +8,7 @@ const Actors = () => {
       <h1>Actors Page</h1>
       {
         actors.map((actor,i) => (
-          <div>
+          <div className='actor'>
           <p>Name: {actor.name}</p>
           </div>
         ))
