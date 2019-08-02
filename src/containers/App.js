@@ -15,7 +15,7 @@ const App = (props) => {
     <Router>
       <React.Fragment>
         <Route path='/' component={Home} />
-        <Route path='/' component={Movies} />
+        <Route path='/movies' component={Movies} />
       </React.Fragment>
     </Router>
   );
